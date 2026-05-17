@@ -1,40 +1,46 @@
 <script setup lang="ts"></script>
 
 <template>
-  <nav>
+  <nav
+    class="bg-main text-secondary p-5 [&::selection]:bg-secondary [&::selection]:text-main"
+  >
     <section>
-      <ul>
-        <li>
-          <p>Nguyễn Ngọc Hiệp</p>
-          <span>Web Developer</span>
+      <ul class="flex flex-col justify-center items-center">
+        <li class="text-center">
+          <p class="text-lg">Nguyễn Ngọc Hiệp</p>
+          <span class="text-sm">Web Developer</span>
         </li>
-        <li>
+        <li class="text-center">
           <p>0972844478</p>
-        </li>
-        <li>
           <p>hiepdev582@gmail.com</p>
         </li>
         <li>
-          <p>Hanoi</p>
+          <p>Hanoi, Vietnam</p>
         </li>
       </ul>
     </section>
+    <hr class="border-secondary my-4" />
     <section>
-      <p>Skills</p>
-      <ul>
+      <p class="text-lg font-semibold">Skills:</p>
+      <ul class="list-disc pl-6">
         <li>HTML</li>
-        <li>CSS / SCSS / TailwindCss</li>
+        <li>CSS / SCSS / TailwindCSS</li>
         <li>JavaScript / TypeScript</li>
         <li>Vue.js / Nuxt</li>
       </ul>
     </section>
+    <hr class="border-secondary my-4" />
     <section>
       <ul>
         <li>
-          <NuxtLink to="#work-exp">Work experience</NuxtLink>
+          <NuxtLink to="#work-exp" class="text-lg font-semibold"
+            >Work experience</NuxtLink
+          >
         </li>
         <li>
-          <NuxtLink to="#personal-project">Personal projects</NuxtLink>
+          <NuxtLink to="#personal-project" class="text-lg font-semibold"
+            >Personal projects</NuxtLink
+          >
         </li>
       </ul>
     </section>
