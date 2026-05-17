@@ -33,8 +33,13 @@ const myProjects: Project[] = [];
           <span>Frontend Developer</span>
           <span>07/2024-04/2026 (1 year 10 months)</span>
         </li>
+        <li class="grid grid-cols-1 lg:grid-cols-[1fr_1fr_1fr] gap-x-6">
+          <span>Alphaway</span>
+          <span>Frontend Developer</span>
+          <span>05/2026-now (1 month)</span>
+        </li>
       </ul>
-      <span class="font-semibold">Total: 2 years 9 months</span>
+      <span class="font-semibold">Total: 2 years 10 months</span>
     </section>
     <hr class="border-main my-4" />
     <section id="personal-project">
