@@ -10,8 +10,8 @@
           <div
             class="border-2 border-secondary mb-2 rounded-full size-20 overflow-hidden mx-auto"
           >
-            <img
-              src="~/assets/images/me.webp"
+            <NuxtImg
+              src="/images/me.webp"
               alt="Avatar"
               class="w-full h-full object-cover"
             />
