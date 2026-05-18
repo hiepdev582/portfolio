@@ -7,6 +7,15 @@
     <section>
       <ul class="flex flex-col justify-center items-center">
         <li class="text-center">
+          <div
+            class="border-2 border-secondary mb-2 rounded-full size-20 overflow-hidden mx-auto"
+          >
+            <img
+              src="~/assets/images/me.webp"
+              alt="Avatar"
+              class="w-full h-full object-cover"
+            />
+          </div>
           <p class="text-lg">Nguyễn Ngọc Hiệp</p>
           <span class="text-sm">Web Developer</span>
         </li>
@@ -33,12 +42,16 @@
     <section>
       <ul>
         <li>
-          <NuxtLink to="#work-exp" class="text-lg font-semibold"
+          <NuxtLink
+            to="#work-exp"
+            class="text-lg font-semibold hover:underline underline-offset-3"
             >Work experience</NuxtLink
           >
         </li>
         <li>
-          <NuxtLink to="#personal-project" class="text-lg font-semibold"
+          <NuxtLink
+            to="#personal-project"
+            class="text-lg font-semibold hover:underline underline-offset-3"
             >Personal projects</NuxtLink
           >
         </li>
