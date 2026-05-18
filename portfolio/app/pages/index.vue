@@ -55,7 +55,7 @@ const totalExperience = computed(() => {
 
 <template>
   <div
-    class="bg-secondary text-main py-7 px-5 md:px-8 [&::selection]:bg-main [&::selection]:text-secondary h-full overflow-y-auto space-y-8"
+    class="scroll-smooth bg-secondary text-main py-7 px-5 md:px-8 [&::selection]:bg-main [&::selection]:text-secondary h-full overflow-y-auto space-y-8"
   >
     <section
       id="work-exp"
