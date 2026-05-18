@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   features: {
     inlineStyles: true,
   },
+  routeRules: {
+    "/": { noScripts: true },
+  },
   app: {
     head: {
       title: "hiepnn's portfolio",
