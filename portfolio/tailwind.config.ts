@@ -7,6 +7,9 @@ module.exports = {
         main: "#1E104E",
         secondary: "#FFC85C",
       },
+      fontFamily: {
+        sans: ["'Plus Jakarta Sans'", "sans-serif"],
+      },
     },
   },
   plugins: [],
