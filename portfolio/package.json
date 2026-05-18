@@ -2,6 +2,9 @@
   "name": "portfolio",
   "type": "module",
   "private": true,
+  "version": "1.0.0",
+  "author": "hiepnn",
+  "license": "MIT",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",

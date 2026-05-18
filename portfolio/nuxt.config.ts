@@ -3,4 +3,17 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss"],
+  app: {
+    head: {
+      title: "hiepnn's portfolio",
+      htmlAttrs: {
+        lang: "en",
+      },
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+      meta: [
+        { name: "description", content: "hiepnn's portfolio" },
+        { name: "author", content: "hiepnn" },
+      ],
+    },
+  },
 });
