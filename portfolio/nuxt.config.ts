@@ -14,6 +14,7 @@ export default defineNuxtConfig({
       title: "hiepnn's portfolio",
       htmlAttrs: {
         lang: "en",
+        class: "scroll-smooth",
       },
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
