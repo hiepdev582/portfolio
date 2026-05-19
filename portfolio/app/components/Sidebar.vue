@@ -12,6 +12,7 @@
           <NuxtImg
             src="/images/me.webp"
             alt="Avatar"
+            fetchpriority="high"
             class="w-full h-full object-cover rounded-full z-10 relative transition-transform duration-500 group-hover/avatar:scale-110"
           />
         </div>

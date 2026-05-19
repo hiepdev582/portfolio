@@ -2,7 +2,15 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/image"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/image", "@nuxtjs/google-fonts"],
+  css: ["~/assets/css/main.css"],
+  googleFonts: {
+    families: {
+      "Plus Jakarta Sans": [300, 400, 500, 600, 700, 800],
+    },
+    display: "swap",
+    download: true,
+  },
   features: {
     inlineStyles: true,
   },
@@ -18,9 +26,6 @@ export default defineNuxtConfig({
       },
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-        { rel: "preconnect", href: "https://fonts.googleapis.com" },
-        { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
-        { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" }
       ],
       meta: [
         { name: "description", content: "hiepnn's portfolio" },
